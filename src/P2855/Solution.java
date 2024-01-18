@@ -27,7 +27,6 @@ class Solution {
                 nums1.add(nums.get(start));
                 start++;
             }
-            System.out.println(nums1);
 
             for (int j = 1; j < nums1.size(); j++) {
                 if (nums1.get(j-1) <= nums1.get(j)) isRightOrder = true;
